@@ -14,7 +14,7 @@ fun main() {
     println("nome ${giovanni.nome}")
     println("cpf ${giovanni.cpf}")
     println("salario ${giovanni.salario}")
-    println("bonificação ${giovanni.bonificacao()}")
+    println("bonificação ${giovanni.bonificacao}")
 
     val fran = Gerente(
         nome = "Fran",
@@ -26,7 +26,7 @@ fun main() {
     println("nome ${fran.nome}")
     println("cpf ${fran.cpf}")
     println("salario ${fran.salario}")
-    println("bonificação ${fran.bonificacao()}")
+    println("bonificação ${fran.bonificacao}")
 
     if (fran.autentica(1234)) {
         println("autenticou com sucesso")
@@ -45,7 +45,7 @@ fun main() {
     println("nome ${gui.nome}")
     println("cpf ${gui.cpf}")
     println("salario ${gui.salario}")
-    println("bonificação ${gui.bonificacao()}")
+    println("bonificação ${gui.bonificacao}")
     println("plr ${gui.plr}")
 
     if (fran.autentica(4000)) {
