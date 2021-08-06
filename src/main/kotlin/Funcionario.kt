@@ -8,6 +8,7 @@ open class Funcionario(
     val salario: Double
 ) {
     open val bonificacao: Double
-        get() = salario * 0.1
-
+        get() {
+            return salario * 0.1
+        }
 }
