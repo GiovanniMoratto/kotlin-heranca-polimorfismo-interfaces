@@ -1,6 +1,7 @@
 /**
  *@Author giovanni.moratto
  */
+
 class Auxiliar(
     nome: String,
     cpf: String,
