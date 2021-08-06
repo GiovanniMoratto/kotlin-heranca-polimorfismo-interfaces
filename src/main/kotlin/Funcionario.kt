@@ -2,7 +2,7 @@
  *@Author giovanni.moratto
  */
 
-open class Funcionario(
+abstract class Funcionario(
     val nome: String,
     val cpf: String,
     val salario: Double

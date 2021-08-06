@@ -3,7 +3,7 @@
  */
 
 fun testaFuncionarios() {
-    val giovanni = Funcionario(
+    val giovanni = Analista(
         nome = "Giovanni",
         cpf = "111.111.111-11",
         salario = 1000.0
